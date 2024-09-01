@@ -1,0 +1,17 @@
+add_library(libpidloop
+    config.h
+    config_parser.cpp
+    config_parser.h
+    data_fetch.cpp
+    data_fetch.h
+    device.h
+    pid_control.cpp
+    pid_control.h
+    state.h
+    xml_parser.cpp
+    xml_parser.h
+    ../../tests/test_data.cpp 
+    ../../tests/test_data.h
+    ../../tests/data_calc.cpp
+    ../../tests/data_calc.h
+)
